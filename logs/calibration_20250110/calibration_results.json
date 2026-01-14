@@ -1,0 +1,16 @@
+{
+  "calibration_date": "2025-01-10",
+  "arm_model": "6DOF Arm",
+  "dh_parameters": {
+    "joint_1": {"d": 0.1, "a": 0, "alpha": -90, "theta_offset": 0},
+    "joint_2": {"d": 0, "a": 0.25, "alpha": 0, "theta_offset": -90},
+    "joint_3": {"d": 0, "a": 0.25, "alpha": 0, "theta_offset": 0},
+    "joint_4": {"d": 0.1, "a": 0, "alpha": -90, "theta_offset": 0},
+    "joint_5": {"d": 0.1, "a": 0, "alpha": 90, "theta_offset": 0},
+    "joint_6": {"d": 0.05, "a": 0, "alpha": 0, "theta_offset": 0}
+  },
+  "repeatability_mm": 0.5,
+  "accuracy_mm": 1.2,
+  "workspace_radius_mm": 500,
+  "max_payload_kg": 2.0
+}
